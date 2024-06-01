@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="estiloFormulario.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <form>
+          <h1>Registrarse</h1>
+
+          <div class="campoRellenar">
+            <input type="text" placeholder="Nombre" id="nombre" name="nombre" />
+          </div>
+
+          <div class="campoRellenar">
+            <input
+              type="text"
+              placeholder="Apellido"
+              id="apellido"
+              name="apellido"
+            />
+          </div>
+
+          <div class="campoRellenar">
+            <input type="email" placeholder="Email" id="email" name="email" />
+          </div>
+
+          <div class="campoRellenar">
+            <input
+              type="password"
+              placeholder="Contraseña"
+              id="password"
+              name="password"
+            />
+          </div>
+
+          <div>
+            <input
+              class="campoDesplegable"
+              type="date"
+              placeholder="Fecha de nacimiento (DD/MM/AA)"
+              id="fechaNacimiento"
+              name="fechaNacimiento"
+            />
+          </div>
+          <br />
+          <div>
+            <select class="campoDesplegable" name="Pais" id="pais">
+              <option value="" disabled selected hidden>País</option>
+              <option>Argentina</option>
+              <option>Brasil</option>
+              <option>Chile</option>
+              <option>Mexico</option>
+              <option>Paraguay</option>
+              <option>Peru</option>
+              <option>Uruguay</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <input type="checkbox" id="terminos" />
+            <label for="terminos"> Acepto terminos y condiciones </label>
+          </div>
+          <br />
+          <div>
+            <input class="boton" type="submit" value="Registrarse" />
+          </div>
+          <br />
+          <div class="recordar">¿Necesitas ayuda?</div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <br />
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </body>
+</html>
