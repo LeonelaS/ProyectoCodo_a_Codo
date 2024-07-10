@@ -1,0 +1,86 @@
+.presentacion {
+  display: flexbox;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 0 0 10px white;
+  color: aliceblue;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: aliceblue;
+}
+
+.imagen-bara {
+  width: 300px;
+  height: 300px;
+  float: inline-start;
+  margin-top: -20%;
+}
+
+.container-cursos {
+  display: flexbox;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  height: 410px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+}
+
+.card:hover {
+  padding: 15px 20px pink;
+}
+
+.info-curso {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.card figure {
+  overflow: hidden;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}

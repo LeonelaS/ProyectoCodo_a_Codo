@@ -6,32 +6,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <title>Creando Brujas</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="estilo-barra.css" />
+    <link rel="stylesheet" href="estilo-section.css" />
+    <link rel="stylesheet" href="estilo-footer.css" />
   </head>
 
   <body class="body">
-    <header>
-      <div class="contenedor-barra">
-        <div class="posicion-logo">
-          <img class="logo" src="imagenes/bruja.png" alt="logo de la pagina, bruja sobre escoba">
+    <div class="container">
+      <header>
+        <div class="nav-bar">
+          <nav>
+            <img
+              class="estilo-logo posicion-logo"
+              src="/imagenes/bruja.png"
+              alt="logo de bruja volando sobre una escoba"
+            />
+
+            <ul class="lista-botones">
+              <li class="item">
+                <a class="custom-button" href="iniciarSesion.html"
+                  >Iniciar sesión</a
+                >
+              </li>
+              <li>
+                <a class="custom-button" href="registrarse.html">Registrarse</a>
+              </li>
+              <li><a class="custom-button" href="#contacto">Contacto</a></li>
+              <li><a class="custom-button" href="#nosotros">Nosotros</a></li>
+            </ul>
+          </nav>
         </div>
-     
-        <nav>
-          <a class="custom-button">Home</a>
-          <a class="custom-button" href="iniciarSesion.html">registrate</a>
-          <a class="custom-button" href="registrarse.html">iniciar sesión</a>
-        </nav>
-      </div>
-    </header>
+      </header>
 
-    <main>
-      <div class="contenedor-presentacion">
-        <section>
-          <h2>Bienvenidos a la escuela holística Creando Brujas</h2>
+      <section>
+        <div class="presentacion">
+          <h1>Bienvenidos a Creando Brujas</h1>
+          <br />
+          <p>
+            Una comunidad única, para quienes quieren formar parte de la magia
+          </p>
+
+          <img class="imagen-bara" src="/imagenes/barita.png" alt="barita magica brillante" />
+        </div>
+      </section>
+
+      <section>
+        <div class="container-cursos">
+
+          <div class="descripcion-cursos">
+            <h2>Cursos</h2>
+            <p>Si estas interesad@ en conocer o potenciar tus dones esotéricos,<br> aquí tienes algunos cursos completamente asincrónicos</p>
+          </div>
+
+          <br>
+
+          <div class="container-cards">
   
-        </section>
-      </div>
-      
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/74/eb/6d/74eb6d3696b6b89d6d461aef188f835a.jpg" alt="imagen de cartas de tarot" >
+              </figure>
+              <div class="info-curso">
+                <h3>Tarot Inicial</h3>
+              </div>
+            </div>
 
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/11/a2/5e/11a25e172f3d9725fc9b111052ea6d49.jpg" alt="imagen de lectura de manos" >
+              </figure>
+              <div class="info-curso">
+                <h3>Quiromancia</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/03/87/fb/0387fba0124630ff60469045d4f78c4b.jpg" alt="imagen de pendulo" >
+              </figure>
+              <div class="info-curso">
+                <h3>Péndulo</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="https://img.freepik.com/fotos-gratis/numerologia-conceito-ainda-vida_23-2150171535.jpg?t=st=1719682855~exp=1719686455~hmac=3a7f7d8109cfb1388c714342baa0ef14d79267e3d9002c386558312cc6729830&w=2000" alt="imagen de numerologia" >
+              </figure>
+              <div class="info-curso">
+                <h3>Numerología</h3>
+              </div>
+            </div>
+
+            </div>
+  
+          </div>
+        </div>
+       
+      </section>
+
+      <section>
+        <div class="container-cursos">
+          <div class="descripcion-cursos">
+            <h2>Tarot Decks</h2>
+            <p>... También podes conseguir los mazos de tarot más originales</p>
+          </div>
+
+          <div class="container-cards">
+
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/564x/93/b0/26/93b02635b418ab26cd4c4340767b9e47.jpg" alt="Cats rule the Earth Tarot" >
+              </figure>
+              <div class="info-curso">
+                <h3>Cats rule the Earth Tarot</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/6b/f9/c3/6bf9c3d209d42317c66b28cc46352447.jpg" alt="Fortuna Tarot Deck" >
+              </figure>
+              <div class="info-curso">
+                <h3>Fortuna Tarot Deck</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/de/74/6a/de746a98e5c6054a8344443814abf341.jpg" alt="Oriens Tarot Deck" >
+              </figure>
+              <div class="info-curso">
+                <h3>Oriens Tarot Deck</h3>
+              </div>
+            </div>
+            
+            <div class="card">
+              <figure>
+                <img src="https://i.pinimg.com/originals/30/0b/24/300b24f3f846e3f46e3742d6516be395.jpg" alt="The Herbal Astrology Oracle" >
+              </figure>
+              <div class="info-curso">
+                <h3>The Herbal Astrology Oracle</h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      
+      <footer class="container-footer">
+
+          <ul class="menu-icon">
+            <li class="elem-icon"><a href="#" class="icono">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+            <li class="elem-icon"><a href="#" class="icono">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a></li>
+            <li class="elem-icon"><a href="#" class="icono">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+            <li class="elem-icon"><a href="#" class="icono">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          </ul>
+
+          <p class="texto-footer">Derechos reservados &copy; 2024</p>
+
+      </footer>
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

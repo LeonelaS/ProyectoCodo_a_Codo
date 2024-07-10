@@ -1,0 +1,36 @@
+.container-footer {
+  width: 100%;
+  min-height: 100px;
+  margin-top: auto;
+  padding: 20px 50px;
+}
+
+.menu-icon {
+  margin: 10px 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.elem-icon {
+  list-style: none;
+}
+
+.icono {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icono:hover {
+  transform: translateY(-10px);
+}
+
+.texto-footer {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
