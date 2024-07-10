@@ -1,12 +1,13 @@
 * {
   display: flex;
   flex-direction: column;
-  background-color: #3b0855;
+  background-color: black;
 }
 
 img {
   width: 50px;
   height: 50px;
+  margin-top: auto;
 }
 
 .container-card {
@@ -20,7 +21,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 400px;
+  height: 450px;
 }
 
 .estilo-container {
@@ -54,23 +55,22 @@ input {
   background-color: white;
 }
 
-button {
+.estilo-boton {
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 10px 10px;
-  margin: 10px 10px 5px;
+  margin: 10px 10px;
+  padding: 20px;
   width: 325px;
   height: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 15px;
-}
 
-.estilo-boton {
-  background-color: none; /*sin fondo el boton*/
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  background-color: #3b0855; /*sin fondo el boton*/
   color: white;
   border-radius: 5px;
   border: 2px solid white;
-  border-radius: 5px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* esto hace que los bordes sean luminosos*/
   opacity: 1;
   transition: 0.5s;
@@ -82,7 +82,6 @@ button {
 
 .ayuda {
   background: local;
-  text-align: right;
   text-decoration: none;
   margin-left: 170px;
   color: white;
